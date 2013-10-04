@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HomePageViewController.h
 //  Swerve
 //
 //  Created by Joe Atlas on 9/29/13.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-- (IBAction)Next;
+@interface HomePageViewController : UIViewController
 
 @end

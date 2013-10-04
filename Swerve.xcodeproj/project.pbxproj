@@ -21,6 +21,14 @@
 		6FD6F25E17F8A6240012D3F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FD6F24017F8A6240012D3F7 /* UIKit.framework */; };
 		6FD6F26617F8A6240012D3F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6FD6F26417F8A6240012D3F7 /* InfoPlist.strings */; };
 		6FD6F26817F8A6240012D3F7 /* SwerveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD6F26717F8A6240012D3F7 /* SwerveTests.m */; };
+		6FD6F27417F8A8810012D3F7 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD6F27217F8A8810012D3F7 /* LoginView.m */; };
+		6FD6F27517F8A8810012D3F7 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FD6F27317F8A8810012D3F7 /* LoginView.xib */; };
+		6FD6F27A17F91D5E0012D3F7 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD6F27817F91D5E0012D3F7 /* HomePageViewController.m */; };
+		6FD6F27B17F91D5E0012D3F7 /* HomePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FD6F27917F91D5E0012D3F7 /* HomePageViewController.xib */; };
+		6FD6F27F17F932690012D3F7 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD6F27D17F932690012D3F7 /* SignUpViewController.m */; };
+		6FD6F28017F932690012D3F7 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FD6F27E17F932690012D3F7 /* SignUpViewController.xib */; };
+		6FD6F28217F9F4410012D3F7 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FD6F28117F9F4410012D3F7 /* libsqlite3.0.dylib */; };
+		6FD6F28517F9F5840012D3F7 /* users.db in Resources */ = {isa = PBXBuildFile; fileRef = 6FD6F28417F9F5840012D3F7 /* users.db */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,17 @@
 		6FD6F26317F8A6240012D3F7 /* SwerveTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwerveTests-Info.plist"; sourceTree = "<group>"; };
 		6FD6F26517F8A6240012D3F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6FD6F26717F8A6240012D3F7 /* SwerveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwerveTests.m; sourceTree = "<group>"; };
+		6FD6F27117F8A8810012D3F7 /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		6FD6F27217F8A8810012D3F7 /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		6FD6F27317F8A8810012D3F7 /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
+		6FD6F27717F91D5E0012D3F7 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		6FD6F27817F91D5E0012D3F7 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		6FD6F27917F91D5E0012D3F7 /* HomePageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomePageViewController.xib; sourceTree = "<group>"; };
+		6FD6F27C17F932690012D3F7 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		6FD6F27D17F932690012D3F7 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		6FD6F27E17F932690012D3F7 /* SignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
+		6FD6F28117F9F4410012D3F7 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		6FD6F28417F9F5840012D3F7 /* users.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = users.db; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FD6F28217F9F4410012D3F7 /* libsqlite3.0.dylib in Frameworks */,
 				6FD6F23F17F8A6240012D3F7 /* CoreGraphics.framework in Frameworks */,
 				6FD6F24117F8A6240012D3F7 /* UIKit.framework in Frameworks */,
 				6FD6F23D17F8A6240012D3F7 /* Foundation.framework in Frameworks */,
@@ -101,6 +121,7 @@
 		6FD6F23B17F8A6240012D3F7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6FD6F28117F9F4410012D3F7 /* libsqlite3.0.dylib */,
 				6FD6F23C17F8A6240012D3F7 /* Foundation.framework */,
 				6FD6F23E17F8A6240012D3F7 /* CoreGraphics.framework */,
 				6FD6F24017F8A6240012D3F7 /* UIKit.framework */,
@@ -112,11 +133,12 @@
 		6FD6F24217F8A6240012D3F7 /* Swerve */ = {
 			isa = PBXGroup;
 			children = (
+				6FD6F28617F9F6340012D3F7 /* Registration */,
+				6FD6F28317F9F5650012D3F7 /* Resources */,
+				6FD6F27617F906AC0012D3F7 /* GUI */,
 				6FD6F24B17F8A6240012D3F7 /* AppDelegate.h */,
 				6FD6F24C17F8A6240012D3F7 /* AppDelegate.m */,
 				6FD6F24E17F8A6240012D3F7 /* Main.storyboard */,
-				6FD6F25117F8A6240012D3F7 /* ViewController.h */,
-				6FD6F25217F8A6240012D3F7 /* ViewController.m */,
 				6FD6F25417F8A6240012D3F7 /* Images.xcassets */,
 				6FD6F24317F8A6240012D3F7 /* Supporting Files */,
 			);
@@ -150,6 +172,39 @@
 				6FD6F26417F8A6240012D3F7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6FD6F27617F906AC0012D3F7 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				6FD6F25117F8A6240012D3F7 /* ViewController.h */,
+				6FD6F25217F8A6240012D3F7 /* ViewController.m */,
+				6FD6F27117F8A8810012D3F7 /* LoginView.h */,
+				6FD6F27217F8A8810012D3F7 /* LoginView.m */,
+				6FD6F27317F8A8810012D3F7 /* LoginView.xib */,
+				6FD6F27717F91D5E0012D3F7 /* HomePageViewController.h */,
+				6FD6F27817F91D5E0012D3F7 /* HomePageViewController.m */,
+				6FD6F27917F91D5E0012D3F7 /* HomePageViewController.xib */,
+				6FD6F27C17F932690012D3F7 /* SignUpViewController.h */,
+				6FD6F27D17F932690012D3F7 /* SignUpViewController.m */,
+				6FD6F27E17F932690012D3F7 /* SignUpViewController.xib */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		6FD6F28317F9F5650012D3F7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6FD6F28417F9F5840012D3F7 /* users.db */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6FD6F28617F9F6340012D3F7 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Registration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +284,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FD6F25517F8A6240012D3F7 /* Images.xcassets in Resources */,
+				6FD6F27B17F91D5E0012D3F7 /* HomePageViewController.xib in Resources */,
 				6FD6F24717F8A6240012D3F7 /* InfoPlist.strings in Resources */,
+				6FD6F28517F9F5840012D3F7 /* users.db in Resources */,
+				6FD6F27517F8A8810012D3F7 /* LoginView.xib in Resources */,
+				6FD6F28017F932690012D3F7 /* SignUpViewController.xib in Resources */,
 				6FD6F25017F8A6240012D3F7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +310,9 @@
 			files = (
 				6FD6F25317F8A6240012D3F7 /* ViewController.m in Sources */,
 				6FD6F24D17F8A6240012D3F7 /* AppDelegate.m in Sources */,
+				6FD6F27F17F932690012D3F7 /* SignUpViewController.m in Sources */,
+				6FD6F27A17F91D5E0012D3F7 /* HomePageViewController.m in Sources */,
+				6FD6F27417F8A8810012D3F7 /* LoginView.m in Sources */,
 				6FD6F24917F8A6240012D3F7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

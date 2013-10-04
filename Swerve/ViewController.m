@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "LoginView.h"
 
 @interface ViewController ()
 
@@ -24,6 +25,12 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)Next
+{
+    LoginView *login = [[LoginView alloc] initWithNibName:nil bundle:nil];
+    [self presentViewController:login animated:YES completion:NULL];
 }
 
 @end
